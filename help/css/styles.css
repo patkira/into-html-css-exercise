@@ -1,0 +1,63 @@
+/*Set page overall basic styles*/
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0
+}
+
+/* HELP - PART 2 */
+.lead {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: grey;
+}
+
+.main-content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*HELP - PART 3*/
+.article {
+  border: 1px solid grey;
+  padding: 30px;
+  background-color:#f9f9f9;
+}
+
+.article h2 {
+  margin-top: 0;
+}
+
+.article-image {
+  width: 25%;
+  float: left;
+  margin-right: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HELP - PART 4 */
+#page-header {
+  background-color: yellow;
+}
+
+.nav {
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+a.nav-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
