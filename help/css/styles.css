@@ -19,7 +19,7 @@ body {
 
 a {
   text-decoration: none;
-  color: red;
+  color: #EB7260;
 }
 
 .clearfix:after {
@@ -30,16 +30,16 @@ a {
 
 /* HELP - PART 2 */
 .lead {
-  font-size: 20px;
+  font-size: 1.25em; /* 20px */
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5em; /* 40px */
   color: #29ABA4;
 }
 
 .main-content {
-  width: 960px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -73,12 +73,16 @@ h1 {
 a.nav-item {
   padding: 15px 20px;
   display: inline-block;
+  color: #354458;
 
   /* Extra styles */
-  color: #354458;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.article a {
+  display: block;
 }
 
 /* HELP - Part 5 */
@@ -88,23 +92,23 @@ box-sizing: content-box; content is the width specified
 box-sizing: border-box; include border + padding
 */
 
-.social-media {
-  box-sizing: border-box;
-  width: 350px;
-
-  /* Extra styles */
-  margin: 0 auto;
-  border: 2px solid #29ABA4;
-  text-align: center;
-  padding: 20px 30px;
-  font-weight: bold;
-  color: #ffffff;
-}
-
 footer {
  background-color: #354458;
  margin-top: 30px;
  padding: 30px;
+}
+
+.social-media {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 2px solid #29ABA4;
+  box-sizing: border-box;
+
+  /* Extra styles */
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .social-media a {
